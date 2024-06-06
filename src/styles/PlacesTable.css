@@ -1,0 +1,48 @@
+.places-table-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.places-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.places-table th {
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 2px solid rgb(222, 226, 230);
+  padding: 8px;
+}
+
+.places-table td {
+  padding: 8px;
+  border-top: 1px solid rgb(222, 226, 230);
+}
+
+.places-table th,
+.places-table td {
+  padding: 8px;
+  border-color: rgb(222, 226, 230);
+}
+
+.places-table tbody tr:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.country-cell {
+  display: flex;
+  align-items: center;
+}
+
+.country-flag {
+  margin-right: 8px;
+}
+
+.spinner,
+.no-result {
+  text-align: center;
+  padding: 20px;
+}
